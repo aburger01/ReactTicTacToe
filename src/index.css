@@ -33,7 +33,8 @@ ol, ul {
 }
 
 .winner {
-  border: 2px solid teal;
+  background: yellow;
+  border: 2px solid cyan;
 }
 
 .square:focus {
