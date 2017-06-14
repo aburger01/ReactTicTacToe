@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Does the Square component render correctly? 1`] = `
+<button
+  className="square"
+  onClick={undefined}
+>
+  X
+</button>
+`;
+
+exports[`Does the Squares class name change if winner is true? 1`] = `
+<button
+  className="square winner"
+  onClick={undefined}
+/>
+`;
