@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Does the Square component render correctly? 1`] = `
+<button
+  className="square"
+  onClick={undefined}
+>
+  X
+</button>
+`;

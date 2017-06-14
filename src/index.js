@@ -1,20 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-
-function Square(props){
-    let squareClassName;
-    if (props.winner) {
-      squareClassName = "square winner"
-    } else {
-      squareClassName = 'square'
-    }
-    return (
-      <button className={squareClassName} onClick = {props.onClick}>
-        {props.value }
-      </button>
-    );
-  }
+import Square from './components/Square.react';
 
 class Board extends React.Component {
   renderSquare(i, winner = null) {
