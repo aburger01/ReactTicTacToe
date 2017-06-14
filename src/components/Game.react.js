@@ -144,7 +144,7 @@ class Game extends React.Component {
           <ol>{moves}</ol>
         </div>
         <div>
-          <button onClick={this.handleSortButton}>Sort</button>
+          <button type = "button" className = "sort" onClick={this.handleSortButton}>Sort</button>
         </div>
       </div>
     );
