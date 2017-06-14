@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Does the Board component render correctly? 1`] = `
+<div>
+  <div
+    className="board-row"
+  >
+    <button
+      className="square winner"
+      onClick={[Function]}
+    >
+      X
+    </button>
+    <button
+      className="square"
+      onClick={[Function]}
+    >
+      O
+    </button>
+    <button
+      className="square"
+      onClick={[Function]}
+    />
+  </div>
+  <div
+    className="board-row"
+  >
+    <button
+      className="square winner"
+      onClick={[Function]}
+    >
+      X
+    </button>
+    <button
+      className="square"
+      onClick={[Function]}
+    >
+      O
+    </button>
+    <button
+      className="square"
+      onClick={[Function]}
+    />
+  </div>
+  <div
+    className="board-row"
+  >
+    <button
+      className="square winner"
+      onClick={[Function]}
+    >
+      X
+    </button>
+    <button
+      className="square"
+      onClick={[Function]}
+    />
+    <button
+      className="square"
+      onClick={[Function]}
+    />
+  </div>
+</div>
+`;
+
+exports[`Does the Square component render correctly? 1`] = `
+<button
+  className="square"
+  onClick={undefined}
+>
+  X
+</button>
+`;
+
+exports[`Does the Squares class name change if winner is true? 1`] = `
+<button
+  className="square winner"
+  onClick={undefined}
+/>
+`;

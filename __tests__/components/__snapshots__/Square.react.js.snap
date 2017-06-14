@@ -8,3 +8,10 @@ exports[`Does the Square component render correctly? 1`] = `
   X
 </button>
 `;
+
+exports[`Does the Squares class name change if winner is true? 1`] = `
+<button
+  className="square winner"
+  onClick={undefined}
+/>
+`;

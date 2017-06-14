@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 function Square(props) {
     let squareClassName;
@@ -12,6 +13,11 @@ function Square(props) {
         {props.value }
       </button>
     );
+  }
+
+  Square.PropTypes = {
+    winner: PropTypes.bool.isRequired,
+    value: PropTypes.string.isRequired
   }
 
 export default Square;
