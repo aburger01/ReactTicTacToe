@@ -1,11 +1,15 @@
 body {
   font: 38px Brush Script MT, cursive;
+  color: white;
+  text-shadow: 0px 0px 50px black;
   margin-top: 75px;
   margin-left: 450px;
+  white-space: nowrap;
+  background-image: url('desert.jpeg');
 }
 
 ol, ul {
-  padding-left: 60px;
+  padding-left: 35px;
 }
 
 .board-row:after {
@@ -35,6 +39,7 @@ ol, ul {
 .winner {
   background: yellow;
   border: 10px solid cyan;
+  color: black;
 }
 
 .square:focus {
@@ -51,7 +56,32 @@ ol, ul {
 }
 
 .sort{
-  float: left;
+  position: absolute;
+  top: 320px;
+  left: 175px;
+  font-size: 40px;
+}
+
+.up-icon{
+  position: absolute;
+  top:285px;
+  left: 175px;
+  color: #5bc0de;
+}
+
+.down-icon{
+  position: absolute;
+  top: 395px;
+  left:235px;
+  color: #5bc0de;
+}
+
+.turns{
+  color: white;
+}
+
+.turns:hover{
+  color: #5bc0de;
 }
 
 .game-info {

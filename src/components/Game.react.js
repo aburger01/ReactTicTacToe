@@ -115,10 +115,10 @@ class Game extends React.Component {
     const moves = history.map((turn) => {
       const text = turn.move ?
         'Move #' + turn.move :
-        'Game start';
+        'Game Start';
       return (
         <li key={turn.move}>
-          <a href="#" onClick={() => this.jumpTo(turn.move)}>{text}</a>
+          <a href="#" onClick={() => this.jumpTo(turn.move)} className = "turns">{text}</a>
         </li>
       );
     });
@@ -144,7 +144,10 @@ class Game extends React.Component {
           <ol>{moves}</ol>
         </div>
         <div>
-          <button type = "button" className = "sort" onClick={this.handleSortButton}>Sort</button>
+          <button type = "button" className = "sort btn btn-info btn-lg" onClick={this.handleSortButton}>Sort
+        </button>
+         <span className="up-icon glyphicon glyphicon-chevron-up" aria-hidden="true"></span>
+         <span className="down-icon glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
         </div>
       </div>
     );
