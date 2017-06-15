@@ -64,15 +64,15 @@ ol, ul {
 
 .up-icon{
   position: absolute;
-  top:285px;
-  left: 175px;
+  top:0px;
+  left: 95px;
   color: #5bc0de;
 }
 
 .down-icon{
   position: absolute;
-  top: 395px;
-  left:235px;
+  top: 40px;
+  left:95px;
   color: #5bc0de;
 }
 

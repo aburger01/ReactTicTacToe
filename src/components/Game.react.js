@@ -145,9 +145,8 @@ class Game extends React.Component {
         </div>
         <div>
           <button type = "button" className = "sort btn btn-info btn-lg" onClick={this.handleSortButton}>Sort
-        </button>
-         <span className="up-icon glyphicon glyphicon-chevron-up" aria-hidden="true"></span>
-         <span className="down-icon glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
+          <span className="up-icon glyphicon glyphicon-chevron-up" aria-hidden="true"></span>
+          <span className="down-icon glyphicon glyphicon-chevron-down" aria-hidden="true"></span></button>
         </div>
       </div>
     );
