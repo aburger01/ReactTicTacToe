@@ -36,19 +36,9 @@ In order to create a proper development environment, you will also need
 - react-test-renderer
 
 First download the Node installer from the Node.js website and run it. Next, run
-the following commands...
-- npm install --save react
-- npm install --save react-dom
-- npm install --save react-bootstrap
-- npm install --save prop-types
-- npm install --save bootstrap@3
-- npm install --save-dev jest
-- npm install --save-dev babel-jest
-- npm install --save-dev babel-preset-es2015
-- npm install --save-dev babel-preset-react
-- npm install --save-dev react-test-renderer
 
-...and now you have everything you need.
+- npm install
+
 
 **Running Tests:**
 To run the tests, type 'npm test' into your command line. The test for the
