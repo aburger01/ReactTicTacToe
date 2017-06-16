@@ -1,4 +1,4 @@
-![gameImage](\Users\APBURGER\Development\react-tut\my-app\src\TicTacToeFinished.PNG)
+![gameImage](https://github.com/aburger01/ReactTicTacToe/blob/master/src/TicTacToeFinished.PNG)
 
 
 
