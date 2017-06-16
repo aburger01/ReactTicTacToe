@@ -50,6 +50,11 @@ game is still in progress. The tests for the Square component test to see if the
 Squares are rendering properly and if the class name changes when they are
 deemed one of the winning squares.
 
+**Running On Docker**
+
+Run the following command
+
+$ docker run --name ttt -p 3000:3000 -d -it ttt
 
 **Built With:**
 - React - main language of the components
